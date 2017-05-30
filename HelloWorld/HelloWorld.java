@@ -16,10 +16,13 @@ public class  HelloWorld{
 
       driver = "Wamari"; //declare string variable
       //count number of letters in the string
-      int letters = driver.length();
+      int xters = driver.length();
+
+      driver = driver.toUpperCase(); //convert to uppercase
 
       System.out.println("We have " + passengers + " passengers");
       System.out.println("You have made " + stops + " stops!");
-      System.out.println(driver + " has " + letters +" in his name");
+      System.out.println(driver + " has " + xters +" in his name");
+      System.out.println(driver);
     }
   }
