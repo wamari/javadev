@@ -5,7 +5,7 @@ public class  HelloWorld{
       // variables
       int passengers; //declare variable
       int stops;
-      String driver;
+      String driverLastName;
       passengers = 0; //set variable value
       passengers = passengers + 5; //assigning new value to variable
       stops = 1;
@@ -15,14 +15,15 @@ public class  HelloWorld{
       stops = stops + 1;
 
       driver = "Wamari"; //declare string variable
-      //count number of letters in the string
-      int xters = driver.length();
 
-      driver = driver.toUpperCase(); //convert to uppercase
+      //count number of letters in the string
+      int xters = driverLastName.length();
+
+      driver = driverLastName.toUpperCase(); //convert to uppercase
 
       System.out.println("We have " + passengers + " passengers");
       System.out.println("You have made " + stops + " stops!");
-      System.out.println(driver + " has " + xters +" in his name");
-      System.out.println(driver);
+      System.out.println(driverLastName + " has " + xters +" in his name");
+      System.out.println(driverLastName);
     }
   }
