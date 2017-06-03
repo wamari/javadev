@@ -1,6 +1,9 @@
+//rework this program
+
+
 public class Lyrics{
-  public static void main(String[] args) {
-    public void chorus(){
+  //public static void main(String[] args) {
+    public staticvoid chorus(){
       System.out.println("This");
       System.out.println("is");
       System.out.println("my");
@@ -8,5 +11,5 @@ public class Lyrics{
       System.out.println("function");
     }
     chorus();
-  }
+//  }
 }
