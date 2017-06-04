@@ -1,4 +1,4 @@
-//program to simulate dice roll with dice of different sides i.e 6, 8 or 10
+//this program is still not working
 public class Question8{
   public static int rollDice(int sides){
     double randomNumber = Math.random();
@@ -23,10 +23,6 @@ public class Question8{
     return total;
   }
   public static void main(String[] args) {
-    //System.out.println("Roll 1: " +roll1);
-    //System.out.println("Roll 2: " +roll2);
-    //System.out.println("Roll 3: " +roll3);
-    //System.out.println("Roll 4: " +roll4);
     monopolyRoll();
   }
 }
