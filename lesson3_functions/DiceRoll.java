@@ -16,8 +16,8 @@ public class DiceRoll{
     int roll2 = rollDice(8);
     int roll3 = rollDice(10);
 
-    System.out.println("Roll 1: " + roll1);
-    System.out.println("Roll 2: " + roll2);
-    System.out.println("Roll 3: " + roll3);
+    System.out.println("6 Roll 1: " + roll1);
+    System.out.println("8 Roll 2: " + roll2);
+    System.out.println("10 Roll 3: " + roll3);
   }
 }
