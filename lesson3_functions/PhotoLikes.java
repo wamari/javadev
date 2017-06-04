@@ -7,7 +7,7 @@ public class PhotoLikes{
       currentLikes = currentLikes + 1;
     }
     //print out current likes
-    //System.out.println("Number of likes: " + currentLikes);
+    System.out.println("Number of likes: " + currentLikes);
     //return current likes
     return currentLikes;
   }
